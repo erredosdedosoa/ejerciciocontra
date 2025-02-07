@@ -13,6 +13,5 @@ function mostrar() {
         parrafo.innerHTML = "La contraseña es segura";
         parrafo.setAttribute("class", "rojo");
     }
-
-    input.addEventListener("keyup", mostrar);
 }
+input.addEventListener("keyup", mostrar);
