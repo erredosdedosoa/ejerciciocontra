@@ -12,10 +12,7 @@ function mostrar() {
     } else if (long > 8) {
         parrafo.innerHTML = "La contraseña es segura";
         parrafo.setAttribute("class", "rojo");
-    } else if (long > 10) {
-        parrafo.innerHTML = "La contraseña es segura";
-        parrafo.setAttribute("class", "azul");
     }
-}
 
-input.addEventListener("keyup", mostrar);
+    input.addEventListener("keyup", mostrar);
+}
